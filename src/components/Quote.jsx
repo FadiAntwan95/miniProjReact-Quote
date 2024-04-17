@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Quote.css"
 
 function Quote() {
-  const [quotes, setQuotes] = useState([
+  const quotes = [
     // men
     { text: "“Deux de mes jours comptés ne me tourmenteront jamais : Hier, déjà oublié, demain, dont je n'ai nulle envie.”", author: "Omar Khayyâm",gender:"male" },
     { text: "“Le moyen de supporter le malheur, c'est de voir quelqu'un de plus malheureux que soi. ”", author: "Thalès",gender:"male" },
@@ -19,7 +19,7 @@ function Quote() {
     { text: "“La réussite, ce n’est pas combien d’argent vous gagnez. C’est l’impact que vous avez sur la vie des gens.”", author: "Michelle Obama", gender:"female" },
     { text: "“La beauté commence au moment où vous décidez d’être vous-même.”", author: "Coco Chanel", gender:"female" },
     { text: "“Ma meilleure amie, c'est moi ”", author: "Diane Von Furstenberg", gender:"female" },
-  ]);
+  ];
 
   const [quoteIndex, setQuoteIndex] = useState(0);
 
